@@ -2,9 +2,11 @@
 
 This program allows you to display a ZX Spectrum screen file (e.g., a loading screen from a game) in Locomotive CP/M Plus for the ZX Spectrum +3. Note CP/M Plus on the ZX Specturm is usually text-only. To do this, the program bypasses the CP/M API and writes directly to screen memory.
 
+Thanks to [ZXLDR](https://www.youtube.com/channel/UCOcVtgjCP-Yv6FsKEfkSonA) for significant help to understand how CP/M Plus memory management works on the ZX Spectrum +3 and how to hack the display buffer. This program is mostly their work.
+
 ## Building and using the program
 
-To build the program you need to set up the [Z88DK development kit[(https://github.com/z88dk) and a copy of [Gnu Make](https://www.gnu.org/software/make/).
+To build the program you need to set up the [Z88DK development kit](https://github.com/z88dk) and a copy of [Gnu Make](https://www.gnu.org/software/make/).
 
 To build your custom binary:
 
