@@ -18,4 +18,4 @@ $(EXEC) : $(OBJECTS)
 	$(CC) $(LDFLAGS) $(OBJECTS) -o $(EXEC) -create-app
 
 clean:
-	$(DELETE) *.o *.bin *.tap *.map *~
+	$(DELETE) *.o *~
