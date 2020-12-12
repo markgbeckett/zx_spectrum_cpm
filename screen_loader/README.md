@@ -6,7 +6,7 @@ Thanks to [ZXLDR](https://www.youtube.com/channel/UCOcVtgjCP-Yv6FsKEfkSonA) for 
 
 ## Building and using the program
 
-To build the program you need to set up the [Z88DK development kit](https://github.com/z88dk) and a copy of [Gnu Make](https://www.gnu.org/software/make/).
+To build the program you need to the [Z88DK development kit](https://github.com/z88dk) and a copy of [Gnu Make](https://www.gnu.org/software/make/).
 
 To build your custom binary:
 
@@ -16,6 +16,6 @@ To build your custom binary:
 
 A CP/M command file named "SCRLOAD.COM" is produced. This then needs to be added to a CP/M diskette image (.DSK file) using, for example, [CPCDiskXP](http://www.cpcmania.com/cpcdiskxp/cpcdiskxp.htm).
 
-Boot your emulator into CP/M Plus, insert your new diskette image, and enter the command `SCRLOAD`. The screen should be displayed and the computer will pause, waiting for you to press any key.
+Boot your emulator into CP/M Plus, insert your new diskette image, and enter the command `SCRLOAD`. The screen should be displayed and the computer will pause, waiting for you to press any key. The screen clears, when you press a key, and returns you to the command prompt.
 
 Note: The screen to be displayed is assembled into the COM file that is created. This is to work around a possible bug in the Z88DK file-handling routines for CP/M. You need to build a new COM file for each screen you wish to display.
